@@ -14,7 +14,7 @@
 body {
     overflow-x: hidden;
     user-select: none;
-    background: #ddd;
+    background: transparent;
     /* font-family: 'Poppins', sans-serif; */
     font-family: 'Raleway', sans-serif;
 }
@@ -125,6 +125,53 @@ p {
 
 
 /*Shared Styles */
+.section {
+    padding: 20px 0;
+}
+.section .section-text {
+    text-align: center;
+    margin-bottom: 15px;
+}
+.section .section-text p,
+.section .section-text h3 {
+    max-width: max-content;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 60%;
+    display: block;
+}
+.section .section-text h3 {
+    color: #2B3A5E;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1.2em;
+    letter-spacing: -0.35px;
+    margin-bottom: 20px;
+}
+.section .section-text p {
+    /* font-size: 18px; */
+    color: #3b3b3b;
+    font-weight: 300;
+}
+
+.section .section-title {
+    position: relative;
+    text-align: center;
+    /* margin-bottom: 15px; */
+}
+
+.section .section-title h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    margin-bottom: 0;
+    font-weight: lighter;
+    font-family: 'Raleway';
+}
+
+
+
 
 @media screen and (min-width:1200px ) {
     .cc-container {
