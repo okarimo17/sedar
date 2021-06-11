@@ -168,6 +168,7 @@ p {
 }
 .top-header .container {
     padding: 15px 0;
+    padding-left: 125px;
 }
 .top-header p {
     margin-bottom: 0;
@@ -175,11 +176,9 @@ p {
     line-height: normal;
 }
 
-/* .top-header .header-infos .info-item{
-    display: inline-block;
-    /* padding: 20px; 
-    border-left: 1px solid rgba(255,255,255,0.1);
-} */
+.top-header .header-infos{
+    padding-left: 10px;
+}
 .top-header .header-infos .info-item:after {
     content: "I";
     margin: 0 10px;
@@ -257,8 +256,9 @@ p {
     background-color: var(--secondary-color);
 }
 
-.top-nav .top-nav_inner .row {
-
+.top-nav .container  {
+    padding-left: 100px;
+    position: relative;
 }
 .top-nav .nav-logo {
     /* background-color: var(--primary-color); */
@@ -269,6 +269,8 @@ p {
 }
 .top-nav .nav-logo img {
     max-width: 210px !important;
+    position: absolute;
+    left: 0;
 }
 
 .top-nav .contact-btn{
@@ -287,7 +289,7 @@ p {
     font-weight: bold;
 }
 .top-nav li.nav-item.active .nav-link {
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
 .top-nav .header-search {
