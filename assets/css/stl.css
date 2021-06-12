@@ -778,3 +778,34 @@ p {
 .products-section .product-item .product_footer > div.red::after {
     background: red;
 }
+.products-section .product-item .express {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    padding: 4px 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+
+.products-carousel.owl-carousel .owl-nav button.owl-next,
+ .products-carousel.owl-carousel .owl-nav button.owl-prev {
+    position: absolute;
+    top: 35%;
+    transform: translateY(-50%);
+    font-size: 31px!important;
+    padding: 5px 15px!important;
+    background: #ffffffcc!important;
+}
+
+
+.products-carousel .owl-nav > button.owl-prev {
+    left: 0;
+}
+
+.products-carousel .owl-nav > button.owl-next {
+    right: 0;
+}
