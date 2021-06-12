@@ -17,4 +17,10 @@ function initRightNav() {
     });
 }
 
+$(document).ready(function(){
+    $("#cmp").twentytwenty();
+})
 
+
+
+  

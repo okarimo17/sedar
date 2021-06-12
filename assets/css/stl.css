@@ -868,6 +868,9 @@ p {
 }
 
 /* Thumbs section */
+.thumbs-section {
+    padding-bottom: 50px;
+}
 .thumbs-section .prod_feature {    
     width: 354px;
 }
@@ -893,4 +896,20 @@ p {
     width: 60px;
     background: rgba(0, 0, 0, 0.466);
     margin-right: 5px;
+}
+
+
+/* comp-section */
+
+.comp-section .section-title{
+    background: url('../img/home/texture-beige.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+.comp-section .section-title{
+    background: url('../img/home/texture-beige.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px;
 }
