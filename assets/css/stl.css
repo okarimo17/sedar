@@ -785,10 +785,10 @@ p {
     box-sizing: border-box;
 }
 .banner-section .banner-inner {
-    height: 240px;
+    min-height: 280px;
     background-repeat: no-repeat;
     background-size: cover;    
-    padding: 35px;
+    padding: 45px;
 }
 .banner-section .banner-inner.big  {
     background:url('../img/home/banner1.png');
@@ -811,4 +811,58 @@ p {
 .banner-section .banner-inner.small  span{
     margin-bottom: 12px;
     display: block;
+}
+
+/* Bg section  */
+.bgs-section .bg1,
+.bgs-section .bg2 {
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bgs-section .bg1 {
+    background: url('../img/home/1.png');
+    padding: 50px 0;
+    margin: 30px 0;
+}
+.bgs-section .bg2 {
+    background: url('../img/home/2.png');
+}
+.bgs-section .part-header {
+    max-width: 75%;
+    font-size: 28px;
+    line-height: 35px;
+    font-weight: lighter;
+    font-family: 'Raleway';
+    color: #fff;
+}
+.bgs-section .button {
+    color: #fff;
+}
+.bgs-section .brd-l {
+    padding-left: 40px;
+}
+.bgs-section .left-container {
+    padding: 20px;
+    padding-left: 105px;
+    color: #fff;
+}
+.bgs-section h3 {
+    font-family: "Raleway";
+    font-style: italic;
+    line-height: 45px;
+    font-size: 34px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: lighter;
+}
+
+.bgs-section .absol-elemnt{
+    position: absolute;
+    top: 40px;
+    right: 0;
+    width: 105%;
+}
+.bgs-section button {
+    color: #fff;
 }
