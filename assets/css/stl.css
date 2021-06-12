@@ -866,3 +866,31 @@ p {
 .bgs-section button {
     color: #fff;
 }
+
+/* Thumbs section */
+.thumbs-section .prod_feature {    
+    width: 354px;
+}
+.thumbs-section .thumb-item {   
+    position: relative;
+}
+.thumbs-section .thumb-item .tag {   
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 5px;
+    text-align: right;
+    font-size: 26px;
+    font-weight: lighter;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.thumbs-section .thumb-item .tag::before {
+    content: "";
+    display: inline-block;
+    height: 1px;
+    width: 60px;
+    background: rgba(0, 0, 0, 0.466);
+    margin-right: 5px;
+}
