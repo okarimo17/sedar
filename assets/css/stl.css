@@ -56,71 +56,33 @@ p {
 .outlined-btn:hover,
 .outlined-btn:focus,
 .outlined-btn:active{
-    background-color: transparent;
+    background-color: var(--primary-color);
     outline: none;
-    border: 1px solid transparent;
 }
 .outlined-btn {
-    --rad:4px;
     --color:var(--secondary-color);
     --hov-color:#fff;
-    border: 1px solid transparent;
-    border-radius: var(--rad) ;
+    border: 1px solid var(--secondary-color);
+    /* border-radius: var(--rad) ; */
     background-color: transparent;
     color: var(--color);
-    font-size: 14px;
-    padding: 10px 15px;
+    font-size: 16px;
+    padding: 14px 24px;
     outline: none!important;
     position: relative;
+    transition: .2s all;
 }
 .outlined-btn > span {
     position: relative;
     z-index: 4;
 }
-.outlined-btn::before {
-    content: "";
-    background-color: var(--color);
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 3;
-    transform: scale(0);
-    transition: .2s all;
-    border-radius: var(--rad) ;;
-}
-.outlined-btn:hover:before {
-    transform: scale(1);
-}
+
 .outlined-btn:hover {
-    color: var(--hov-color);
-}
-
-.outlined-btn::after {
-    content: "";
-    background: transparent;
-    border-radius: var(--rad) ;
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    z-index: 3;
-    border: 1px solid var(--color);
-    opacity: 1;
-    transition: .2s all;
-}
-.outlined-btn:hover:before {
-    transform: scale(1);
+    color: #fff;
 }
 
 
 
-.outlined-btn:hover:after {
-    transform: scale(1.4);
-    opacity: 0;
-}
 
 
 
@@ -808,4 +770,45 @@ p {
 
 .products-carousel .owl-nav > button.owl-next {
     right: 0;
+}
+
+
+/* Banner section */
+.banner-section {
+    padding: 40px 0;
+}
+.banner-section .banner-outer {
+    background: url('../img/home/patt1.png');
+    background-repeat: no-repeat;
+    background-size: cover;    
+    padding: 40px;
+    box-sizing: border-box;
+}
+.banner-section .banner-inner {
+    height: 240px;
+    background-repeat: no-repeat;
+    background-size: cover;    
+    padding: 35px;
+}
+.banner-section .banner-inner.big  {
+    background:url('../img/home/banner1.png');
+}
+.banner-section .banner-inner.small  {
+    background: #fff;
+    text-align: center;
+}
+.banner-section .banner-inner h4{
+    font-family: 'Raleway';
+    font-size: 31px;
+    max-width: 60%;
+    line-height: 32px;
+    margin-bottom: 32px;
+}
+.banner-section .banner-inner.small  h4{
+    max-width: unset;
+    font-size: 28px;
+}
+.banner-section .banner-inner.small  span{
+    margin-bottom: 12px;
+    display: block;
 }
