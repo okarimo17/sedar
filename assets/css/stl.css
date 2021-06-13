@@ -1131,7 +1131,29 @@ p {
     grid-template-rows:repeat(3,230px);
     grid-template-columns: repeat(4,25%);
 }
-  
+.share-section .grid-gallery .grid-item {
+    position: relative;
+    cursor: pointer;
+}
+.share-section .grid-gallery .grid-item .insta-tag {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #bfa030af;
+    color: #fff;
+    font-family: 'Raleway';
+    font-weight: bold;
+    opacity: 0;
+    transition: opacity .2s;
+}
+.share-section .grid-gallery .grid-item:hover .insta-tag {
+    opacity: 1;
+}
 .share-section .grid-gallery .grid-item img{
     height: 100%;
     width: 100%;
