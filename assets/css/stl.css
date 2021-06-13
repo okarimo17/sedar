@@ -999,3 +999,117 @@ p {
     border-right: 1px solid rgb(0 0 0 / 27%);
     padding: 0 20px;
 }
+
+
+
+
+
+
+/* bonuta Site Style */
+.bonuta .section-title {
+    position: relative;
+    margin-bottom: 25px;
+}
+.bonuta .section-title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 50%;
+    background-color: #fff;
+    border-top: 1px solid #efefef;
+    z-index: -1;
+}
+.bonuta .section-title span{
+    font-family: 'Raleway';
+    font-weight: lighter;
+    color: #999;
+}
+.bonuta .section .section-title h2 {
+    max-width: 340px;
+    background: #fff;
+    padding: 0 20px;
+    /* color: #1c1b1b; */
+    /* font-size: 41px; */
+    /* line-height: 41px; */
+    font-weight: 300;
+    /* font-family: 'DM Serif Display',serif; */
+    line-height: 45px !important;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.tap-item .tap-content {
+    padding: 20px;
+    text-align: center;
+}
+.tap-item .tap-content h4 {
+    margin-bottom: 5px;
+}
+.tap-item .sub-title {
+    font-family: 'Raleway';
+    font-weight: lighter;
+    color: #999;
+}
+.tap-item .title {
+    font-weight: 300;
+    display: block;
+
+    color: #1c1b1b;
+    font-size: 30px;
+    line-height: 33px;
+    padding: 0;
+    margin: 0 auto;
+    line-height: 34px;
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+.tap-item .outlined-btn {
+    margin-top: 10px;    
+    border: 1px solid var(--primary-color);
+}
+/*banner-section*/
+.banner-section .bg {
+    background-image: url('../img/banner.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-section .text-content {
+    background: #F9F1F0;
+    padding: 30px;
+}
+.banner-section .text-content h3{
+    font-size: 30px;   
+    font-size: 34px;
+    
+    font-family: 'Raleway';
+    font-weight: bold;
+    line-height: 1.2;
+    color: #404040;
+}
+.banner-section .text-content p{
+    margin: 15px 0;
+    color: #8c8c8c;
+    font-size: 13px;
+    font-weight: 200;
+    font-family: 'Raleway';
+    overflow-x: hidden; 
+}
+
+.news-letter input {
+    flex: 1;
+    margin-right: 5px;
+    padding: 0 10px;
+}
+.news-letter .outlined-btn {
+    background: var(--primary-color);
+    color: #efefef;
+    border: 1px solid transparent;
+} 
+.news-letter .outlined-btn:hover {
+    color: var(--primary-color);
+    background: transparent;
+    border: 1px solid var(--primary-color);
+} 
