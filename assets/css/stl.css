@@ -1113,3 +1113,14 @@ p {
     background: transparent;
     border: 1px solid var(--primary-color);
 } 
+
+/* share section */
+.share-section {
+    margin-top: 40px;
+}
+.share-section .insta-logo {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: -50px;
+}
