@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
   <link rel="stylesheet" href="./assets/css/owl.theme.green.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <link rel="stylesheet" href="./assets/css/stl.css" />
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -239,7 +241,7 @@
   </div>
 
 
-  <div class="products-section section bg-light">
+  <div data-aos="fade-up" data-aos-duration="500" class="products-section section bg-light">
     <div class="section-title">
       <h2>Sublimez votre intérieur<h2>
     </div>
@@ -360,10 +362,10 @@
     </div>
   </div>
 
-  <div class="banner-section section bg-light">
+  <div class="banner-section section bg-light" style="overflow: hidden;">
     <div class="container">
       <div class="row">
-        <div class="col-8">
+        <div class="col-md-8 col-12" data-aos="fade-right" data-aos-duration="500">
           <div class="banner-outer">
             <div class="banner-inner big">
               <h4>Découvrez nos nouveautés</h4>
@@ -371,7 +373,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-md-4 col-12" data-aos="fade-left" data-aos-duration="500">
           <div class="banner-outer">
             <div class="banner-inner small">
               <span>ARTESIGNATURE</span>
@@ -385,11 +387,11 @@
 
   </div>
 
-  <div class="bgs-section">
+  <div class="bgs-section" style="overflow: hidden;">
     <div class="container-fluid">
       <div class="row">
         <div class="col-6 bg1">
-          <div class="container left-container">
+          <div class="container left-container"  data-aos="fade-right" data-aos-duration="500">
             <h4 class="part-header">L'art de mettre le confort sur un piédestal</h4>
             <div class="brd-l">
               <p class="fsz-14 part-excrept text-courant text-beige-light font-light mb-30 line-height-2">
@@ -410,8 +412,8 @@
         </div>
         <div class="col-6 bg2">
           <div class="absol-elemnt">
-            <img src="./assets/img/home/bg3.jpg" class="img-fluid">
-            <h3>« N’achetez plus de meuble.<br> Achetez une pièce d’art à vivre. »</h3>
+            <img src="./assets/img/home/bg3.jpg" class="img-fluid"  data-aos="fade-left" data-aos-duration="500">
+            <h3  data-aos="fade-up" data-aos-delay="600" data-aos-duration="500">« N’achetez plus de meuble.<br> Achetez une pièce d’art à vivre. »</h3>
           </div>
         </div>
       </div>
@@ -1002,6 +1004,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mhayes-twentytwenty/2.0.0-beta.1/jquery.twentytwenty.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
   <script src="./assets/js/owl.carousel.min.js"></script>
 
   <script src="./assets/js/script.js"></script>
@@ -1038,6 +1042,7 @@
         }
       })
       $("#cmp").twentytwenty();
+      AOS.init();
 
       const top_header = $('.top-header-outer')
       let fixed = false;
