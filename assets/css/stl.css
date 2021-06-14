@@ -1004,13 +1004,12 @@ p {
 
 
 
-
 /* bonuta Site Style */
-.bonuta .section-title {
+.bonuta-section .section-title {
     position: relative;
     margin-bottom: 25px;
 }
-.bonuta .section-title::after {
+.bonuta-section .section-title::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -1022,15 +1021,15 @@ p {
     z-index: -1;
 }
 
-.bonuta .no-line .section-title::after {
+.bonuta-section.no-line .section-title::after {
     content: none;
 }
-.bonuta .section-title span{
+.bonuta-section .section-title span{
     font-family: 'Raleway';
     font-weight: lighter;
     color: #999;
 }
-.bonuta .section .section-title h2 {
+.bonuta-section.section .section-title h2 {
     max-width: 340px;
     background: #fff;
     padding: 0 20px;
@@ -1044,7 +1043,7 @@ p {
     max-width: 400px;
     margin: 0 auto;
 }
-.bonuta .section-title p{
+.bonuta-section .section-title p{
     font-family: 'Raleway';
     font-weight: lighter;
     color: #999;
@@ -1052,7 +1051,7 @@ p {
     max-width: 40%;
     margin: 5px auto;
 }
-.bonuta .section-title p a {
+.bonuta-section .section-title p a {
     color: var(--primary-color);
 }
 .tap-item .tap-content {
