@@ -1344,3 +1344,23 @@ p {
 .excelent-part svg .tp-star__canvas--half {
     fill: #00b67a;
 }
+
+/* footer-bar */
+
+.footer-bar {
+    background: #171717;
+    padding: 30px 0;
+    text-align: center;
+    color: #D6D6D6;
+    font-size: 14px;
+}
+.footer-bar p{
+    margin-bottom: 1rem;
+    font-size: 14px;
+}
+.footer-bar ul li {
+    display: inline-block;
+}
+.footer-bar ul li+li {
+    margin-left: 4px;
+}
