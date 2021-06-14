@@ -1266,3 +1266,34 @@ p {
     font-size: 13px;
     margin-bottom: 25px;
 }
+
+/* footer section */ 
+.footer-section{
+    background-color:#1F1F1F;
+    padding: 40px 0;
+    padding-top: 80px;
+}
+.footer-section .footer-widgets {
+    margin-top: 30px;
+}
+.block .block-header h4 {
+    font-size: 18px;
+    color: #ddd;
+    font-family: 'RALEWAY';
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.block ul {
+    list-style-type: none;
+    color: #ccc;
+    font-size: 12px;
+}
+.block ul a{
+    transition: .2s all;
+}
+
+
+.footer-section .right-part{
+    padding-left: 20px;
+    color: #eee;
+}
