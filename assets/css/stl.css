@@ -1021,6 +1021,10 @@ p {
     border-top: 1px solid #efefef;
     z-index: -1;
 }
+
+.bonuta .no-line .section-title::after {
+    content: none;
+}
 .bonuta .section-title span{
     font-family: 'Raleway';
     font-weight: lighter;
@@ -1040,7 +1044,17 @@ p {
     max-width: 400px;
     margin: 0 auto;
 }
-
+.bonuta .section-title p{
+    font-family: 'Raleway';
+    font-weight: lighter;
+    color: #999;
+    font-size: 14px;
+    max-width: 40%;
+    margin: 5px auto;
+}
+.bonuta .section-title p a {
+    color: var(--primary-color);
+}
 .tap-item .tap-content {
     padding: 20px;
     text-align: center;
@@ -1190,3 +1204,21 @@ p {
     }
 }
 
+
+
+
+/* inspiretap-section  */
+.inspiretap-section .three-col {
+    margin-top: 30px ;
+    margin-bottom: 30px ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.inspiretap-section .full-banner {
+    border-bottom: 1px solid #ccc;
+}
+.inspiretap-section .full-banner p  {
+    font-size: 14px;
+}
