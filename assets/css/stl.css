@@ -763,7 +763,9 @@ p {
     background: #ffffffcc!important;
 }
 
-
+.products-carousel.owl-carousel .item {
+    padding: 20px;
+}
 .products-carousel .owl-nav > button.owl-prev {
     left: 0;
 }
