@@ -82,7 +82,16 @@ p {
 }
 
 
-
+.filled-btn.outlined-btn {
+    background: var(--primary-color);
+    color: #efefef;
+    border: 1px solid transparent;
+} 
+.filled-btn.outlined-btn:hover {
+    color: var(--primary-color);
+    background: transparent;
+    border: 1px solid var(--primary-color);
+} 
 
 
 
@@ -1394,4 +1403,65 @@ p {
 .orange-section .white-card_holder h3 {
     color: #e72d14;
     font-size: 26px;
+}
+
+
+/* FullPage Section  */
+.fp .section {
+    text-align:center;
+    font-size: 3em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    position: relative;
+}
+.fp .yellow-section {
+    background-image: url('../img/fullpage/section1.jpg');
+}
+.fp .hist-section {
+    background-image: url('../img/fullpage/section2.jpg');
+}
+.fp .tap4-section {
+    background-image: url('../img/fullpage/section3.jpg');
+}
+.fp .section4-section{
+    background-image: url('../img/fullpage/section4.jpg');
+
+}
+
+
+.fp  .center-text .text {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.fp  .hist-section .text {
+    max-width: 45%;
+    margin-left: auto;
+    margin-right: 70px;
+    text-align: right;
+}
+
+.fp h4 {    
+    position: absolute;
+    bottom: 50px;
+    /* bottom: -100px; */
+    font-family: 'Raleway';
+    font-weight: lighter;
+    font-size: 28px;
+    right: 0;
+    left: 0;
+}
+.fp .filled-btn.outlined-btn:hover{
+    background-color: #fff;
+}
+
+.fp .light-section .text ,
+.fp .light-section h2,
+.fp .light-section h4{
+    color: #fff;
+}
+.fp button{
+    margin-top: 14px;
+    display: inline-block;
 }
