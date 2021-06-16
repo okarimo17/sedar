@@ -1,7 +1,7 @@
 
 function initRightNav() {
     /* Set img src for right navbar*/
-
+    
 
     $(".right-nav .logo").html($(".main-navbar .logo").html());
     /* fill right navar ul list items*/
